@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
         <title>Pendolino test</title>
         <?php 
             class Question {
