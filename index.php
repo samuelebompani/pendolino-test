@@ -6,18 +6,28 @@
     <body>
         <?php include('components/navbar.php')?>
         <div class="container">
-            <div class="q-container">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <div class="q-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi vitae suscipit tellus mauris a diam. Vitae tempus quam pellentesque nec nam aliquam sem. Eros in cursus turpis massa. Vel pharetra vel turpis nunc eget lorem. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Et netus et malesuada fames ac. Massa tincidunt dui ut ornare lectus sit amet. Fermentum posuere urna nec tincidunt. Non arcu risus quis varius quam quisque id. Vitae purus faucibus ornare suspendisse. Sem viverra aliquet eget sit amet tellus cras. Venenatis cras sed felis eget velit. Amet nisl suscipit adipiscing bibendum. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Dui vivamus arcu felis bibendum ut tristique et.</div>
-                <div class="q-option">
-                    <input type="radio" id="1" name="q1" value="1">
-                    <label for="1">Accetto</label>
+            <form action="result.php" method="post">
+                <div class="q-container">
+                    <div><h2>Il traffico e l'arbre magique</h2>
+                        <div class="q-body">A Roma c’è molto traffico, quasi come a Los Angeles. Puoi risolvere questo problema per sempre, ma non solo: in qualunque posto arrivi trovi sempre parcheggio, non solo a Roma. In cambio, per tutta la vita e in qualunque contesto devi portare al collo un arbre magique. Se le persone ti chiedono e/o ti prendono in giro, devi far finta di non averlo. Ovviamente l’arbre magique rimane su anche durante i rapporti sessuali.</div>
+                    </div>
+                    <div class="q-option">
+                        <div>
+                            <input type="radio" id="1" name="q1" value="1">
+                            <label for="1">Accetto</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="2" name="q1" value="2">
+                            <label for="2">Non accetto</label>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="q-option">
-                    <input type="radio" id="2" name="q1" value="2">
-                    <label for="2">Non accetto</label>
+                <div style="text-align: center; margin-top: 2%;">
+                    <button class="submit-btn" type="submit">Conferma</button>
                 </div>
-            </div>
+            </form>
+            
         </div>
         <?php include('components/footer.php')?>
     </body>

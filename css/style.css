@@ -16,6 +16,35 @@ h1 {
     font-weight: bolder;
     line-height: 1;
 }
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: center;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: black;
+    cursor: pointer;
+    
+}
+
+input[type="radio"]:checked + *::before {
+    background: radial-gradient(#ff594c 0%, #ff594c 40%, transparent 50%, transparent);
+    border-color: black;
+}
+input[type="radio"]:checked + * {
+    color: #ff594c;
+}
+
+input[type="radio"] + * {
+    cursor: pointer;
+}
 
 .container {
     margin-left: 10%;
@@ -46,9 +75,24 @@ h1 {
 }
 
 .q-option {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 2;
     font-weight: bold;
+}
+
+.q-option > div {
+    display: grid;
+    align-items: center;
+}
+
+.submit-btn {
+    background-color: #ff594c;
+    border: 3px solid black;
+    font-family: 'AntiqueOlive';
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1%;
+    cursor: pointer;
 }
 
 .title-nav {
