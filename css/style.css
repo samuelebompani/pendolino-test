@@ -1,7 +1,13 @@
 @font-face {
+    font-family: AntiqueOliveBold;
+    src:url("/fonts/AntiqueOliveBold.ttf");
+}
+
+@font-face {
     font-family: AntiqueOlive;
     src:url("/fonts/olvr55w.ttf");
 }
+
 
 html {
     font-family: 'AntiqueOlive';
@@ -15,6 +21,11 @@ body {
 h1 {
     font-weight: bolder;
     line-height: 1;
+}
+
+h2 {
+    
+    font-weight: bolder;
 }
 input[type="radio"] {
     display: none;
