@@ -17,9 +17,12 @@
                     $this->opt2 = $val2;
                 }
             }
-            $questions = array(new Question("Il traffico e l'arbre magique - PND#34", 
-                "A Roma c’è molto traffico, quasi come a Los Angeles. Puoi risolvere questo problema per sempre, ma non solo: in qualunque posto arrivi trovi sempre parcheggio, non solo a Roma. In cambio, per tutta la vita e in qualunque contesto, devi portare al collo un arbre magique. Se le persone ti chiedono e/o ti prendono in giro, devi far finta di non averlo. Ovviamente l’arbre magique rimane su anche durante I rapporti sessuali", 
-                "1", "0"));
+            $fileHandle = fopen("csv/data.csv", "r");
+            $questions = array();
+            fgetcsv($fileHandle, 0, ",");
+            while (($row = fgetcsv($fileHandle, 0, ",")) !== FALSE) {
+                $questions[] = new Question($row[0], $row[1], $row[2], $row[3]);
+            }
         ?>
     </head>
     <body>
@@ -33,12 +36,12 @@
                     print('<div class="q-body">'.$q->body.'</div></div>');
                     print('<div class="q-option">
                                 <div>
-                                    <input type="radio" id="0" name="q1" value="'.$q->opt1.'">
-                                    <label for="0">Accetto</label>
+                                    <input type="radio" id="'.$q ->title.'0" name="'.$q ->title.'" value="'.$q->opt1.'">
+                                    <label for="'.$q ->title.'0">Accetto</label>
                                 </div>
                                 <div>
-                                    <input type="radio" id="1" name="q1" value="'.$q->opt2.'">
-                                    <label for="1">Non accetto</label>
+                                    <input type="radio" id="'.$q ->title.'1" name="'.$q ->title.'" value="'.$q->opt2.'">
+                                    <label for="'.$q ->title.'1">Non accetto</label>
                                 </div>
                             </div>');
                     print("</div>");
