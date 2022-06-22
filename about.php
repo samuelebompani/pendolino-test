@@ -16,7 +16,7 @@
                 il codice del sito è disponibile <a href="https://github.com/samuelebompani/pendolino-test">qui</a>
             </div>
             <div style="text-align: center; margin-top: 2%;">
-                <a href="/"><button class="submit-btn" type="submit">Torna all'inizio</button></a>
+                <a href="./"><button class="submit-btn" type="submit">Torna all'inizio</button></a>
             </div>
         </div>
         <?php include("components/footer.php"); ?>

@@ -12,7 +12,7 @@
                 <div class="q-container">
                     Ti svegli in una stanza che non conosci, non ricordi nulla e senti del leggero odore di muffa. Non ci vedi bene e hai la sensazione di essere stato drogato.
                     Dopo qualche minuto, riconosci la sagoma di una persona. È Emanuele Atturo e ti sta facendo delle domande. Vuole sapere da dove arrivi:
-                    <form action="/" method="get" style="text-align: center; margin-top: 2%;">
+                    <form action="./" method="get" style="text-align: center; margin-top: 2%;">
                         <input type="text" name="place"></input>
                     </form>
                 </div>
@@ -28,7 +28,7 @@
                         </div>
 
                         <div style='text-align: center; margin-top: 2%;'>
-                            <a href='/test.php'><button class='submit-btn' type='submit'>Continua</button></a>
+                            <a href='./test'><button class='submit-btn' type='submit'>Continua</button></a>
                         </div>
                         ");
                     }

@@ -50,10 +50,10 @@
                     
                 </div>
                 <div style="text-align: center; margin-top: 2%;">
-                    <a href="/test.php"><button class="submit-btn" type="submit">Torna al test</button></a>
+                    <a href="./test"><button class="submit-btn" type="submit">Torna al test</button></a>
                 </div>
                 <div style="text-align: center; margin-top: 2%;">
-                    <a href="/"><button class="submit-btn" type="submit">Torna all'inizio</button></a>
+                    <a href="./"><button class="submit-btn" type="submit">Torna all'inizio</button></a>
                 </div>
             </div>
         </div>
