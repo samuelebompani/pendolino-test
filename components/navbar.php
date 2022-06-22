@@ -1,3 +1,3 @@
-<nav class="title-nav">
-    <h1>Pendolino test - unofficial</h1>
-</nav>
+<div class="title-nav">
+    <h1>Pendolino test</h1>
+</div>
