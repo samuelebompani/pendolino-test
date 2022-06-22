@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
-        <title>Pendolino test</title>
+        <?php include("components/header.html"); ?>
     </head>
     <body>
         <?php include('components/navbar.php')?>
@@ -33,7 +31,6 @@
                         ");
                     }
                 ?>
-                
             </div>
         </div>
         <?php include("components/footer.php"); ?>

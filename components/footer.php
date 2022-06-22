@@ -1,3 +1,3 @@
 <div class="footer">
-    Copyright (c) Samuele Bompani
+    Copyright (c) 2022 Samuele Bompani
 </div>
