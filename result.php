@@ -19,6 +19,7 @@
                 "Mezzo giocatore", 
                 "Giocatore stranissimo",
                 "Giocatore strano",
+                "Dopato",
                 "Buon giocatore",
                 "Mezzo forte",
                 "Incredibile",
