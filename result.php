@@ -45,7 +45,7 @@
                     <div>
                         <h2>Hai totalizzato <?php print($result."/".$count)?> punti Marco D'Ottavi!</h2>
                         Ti risvegli improvvisamente a casa. Era tutto un sogno. Sul tavolo in cucina però trovi un foglietto con scritto
-                        <h3><?php print($appellativiE[$result])?></h3>
+                        <h2><?php print($appellativiE[$result])?></h2>
                     </div>
                     
                 </div>
