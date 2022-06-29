@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: AntiqueOlive;
     src:url("../fonts/olvr55w.ttf");
@@ -127,7 +131,6 @@ input[type="text"] {
 }
 
 .title-nav {
-    padding-left: 2%;
     font-size: 24px;
     text-align: center;
     border-bottom: 3px solid black;
