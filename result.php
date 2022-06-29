@@ -8,6 +8,7 @@
         <?php 
             $appellativiE = array(
                 'Pippa arcuata',
+                'Pippa carioca',
                 "Cipolle nella pentola del bollito",
                 "Carote del bollito",
                 "Bollito",
@@ -20,6 +21,7 @@
                 "Dopato",
                 "Buon giocatore",
                 "Mezzo forte",
+                "Ottimo",
                 "Incredibile",
                 "Forte vero",
                 "Fortissimo",
